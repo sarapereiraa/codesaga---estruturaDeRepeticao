@@ -1,0 +1,26 @@
+#-----------------------
+#	MENU 
+#-----------------------
+self menu_p
+	puts '[1]Inserir nova tarefa'
+	puts '[2] ver todas as tarefas'
+end
+
+opcao = gets.to_i
+tarefa = ""
+tarefaC = tarefa
+
+menu = 10 
+while cont >= 0
+	if opcao == 1 
+		puts '[1] Inserir Tarefa'
+		print 'Opção escolhida'
+
+		
+		menu -= 1 
+	elsif opcao == 2 
+		puts tarefaC
+	else
+		puts 'Opção Inválida'
+	end
+end
